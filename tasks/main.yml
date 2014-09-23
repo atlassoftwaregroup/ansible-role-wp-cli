@@ -1,0 +1,10 @@
+---
+# tasks file for wp-cli
+- name: download wp-cli
+  command: wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar -O wp
+  args:
+    chdir: "/usr/local/bin/"
+- name: set executable permissions
+  file:
+    path: "/usr/local/bin/wp"
+    mode: "0755"
