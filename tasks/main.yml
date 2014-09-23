@@ -4,6 +4,7 @@
   command: wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar -O wp
   args:
     chdir: "/usr/local/bin/"
+    creates: "/usr/local/bin/wp"
 - name: set executable permissions
   file:
     path: "/usr/local/bin/wp"
