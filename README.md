@@ -1,5 +1,6 @@
 Role Name
 =========
+[![Build Status](https://travis-ci.org/jnakatsui/ansible-role-wp-cli.svg)](https://travis-ci.org/jnakatsui/ansible-role-wp-cli)
 
 Installs wp-cli
 
