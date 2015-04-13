@@ -1,12 +1,12 @@
-Role Name
-=========
 [![Build Status](https://travis-ci.org/jnakatsui/ansible-role-wp-cli.svg)](https://travis-ci.org/jnakatsui/ansible-role-wp-cli)
+
+wp-cli
+======
 
 Installs wp-cli
 
 Requirements
 ------------
-
 None
 
 Role Variables
@@ -16,8 +16,7 @@ A description of the settable variables for this role should go here, including 
 
 Dependencies
 ------------
-
-No dependencies
+None
 
 Example Playbook
 ----------------
@@ -28,8 +27,4 @@ Example Playbook
 
 License
 -------
-
 MIT
-
-Author Information
-------------------

@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Jonathan Nakatsui
+  author: jnakatsui
   description: Installs wp-cli
   license: MIT
   min_ansible_version: 1.7
